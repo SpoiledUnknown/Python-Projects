@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Sports Buzz", "Sports Buzz.pyproj", "{3E5AD88C-049B-4C1F-8BBD-8CE4CC40C05A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E5AD88C-049B-4C1F-8BBD-8CE4CC40C05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5AD88C-049B-4C1F-8BBD-8CE4CC40C05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8425C277-4475-4F8D-B8A5-B23FB4CAE0AE}
+	EndGlobalSection
+EndGlobal
