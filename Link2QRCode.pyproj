@@ -11,7 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>Link2QRCode</Name>
     <RootNamespace>Link2QRCode</RootNamespace>
-    <InterpreterId>MSBuild|link2qr_env|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <SuppressPackageInstallationPrompt>True</SuppressPackageInstallationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,15 +26,19 @@
     <Compile Include="Link2QRCode.py" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="link2qr_env\">
-      <Id>link2qr_env</Id>
+    <Interpreter Include="env\">
+      <Id>env</Id>
       <Version>0.0</Version>
-      <Description>link2qr_env (Python 3.12 (64-bit))</Description>
+      <Description>env (Python 3.12 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.md" />
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
