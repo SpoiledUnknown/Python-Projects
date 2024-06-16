@@ -1,7 +1,7 @@
 # Number - Guesser
 
 ## Description: 
-A simple Number guesser game where you can guess the number and earn point/
+A simple Number guesser game where you can guess the number and earn point.
 
 ## How To Use:
 - Install Python from [here](https://www.python.org/downloads/).
