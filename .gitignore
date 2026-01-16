@@ -136,6 +136,7 @@ venv.bak/
 
 # Visual Studio Project
 .vs/
+.idea/
 
 # Rope project settings
 .ropeproject
